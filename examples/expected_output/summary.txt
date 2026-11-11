@@ -1,0 +1,28 @@
+vepbench: phyloP100way_example.tsv.gz; 200,060 labelled variants with a score; 138,927 analysed (rare only); 200 gene-cluster bootstrap replicates
+
+AUROC by label period (pooled | within gene | gene-identity null)
+  all labels           <=2019     n=21,446 (P/LP 19,828)  0.814 (0.785-0.845) | 0.869 (0.825-0.897) | 0.871
+  all labels           2020-2022  n=17,660 (P/LP 12,789)  0.787 (0.771-0.807) | 0.855 (0.813-0.891) | 0.890
+  all labels           2023-2026  n=99,821 (P/LP 26,194)  0.899 (0.891-0.908) | 0.844 (0.825-0.859) | 0.939
+  provenance-filtered  <=2019     n= 4,652 (P/LP 3,966)  0.799 (0.775-0.823) | 0.847 (0.766-0.879) | 0.814
+  provenance-filtered  2020-2022  n= 8,201 (P/LP 3,898)  0.759 (0.740-0.780) | 0.824 (0.773-0.870) | 0.852
+  provenance-filtered  2023-2026  n=28,208 (P/LP 6,857)  0.744 (0.725-0.762) | 0.797 (0.774-0.819) | 0.886
+
+Change 2020-2022 -> 2023-2026 (shared cells hold 49% of the 2023-2026 labels)
+  pooled AUROC, full sets                                                     +0.112 (+0.095 to +0.129)
+  within-gene AUROC, full sets                                                -0.011 (-0.050 to +0.027)
+  pooled, shared gene x class cells only                                      +0.023 (+0.007 to +0.036)
+  pooled, shared cells with 2023-2026 reweighted to the 2020-2022 cell mix    +0.010 (+0.001 to +0.020)
+
+B/LB labels by recorded evidence, against all P/LP of the period (pooled AUROC)
+  2020-2022  Explicit computational evidence        n=   531  0.837 (0.802-0.863)
+  2020-2022  Text without computational evidence    n=   496  0.812 (0.788-0.837)
+  2020-2022  No free text                           n= 3,807  0.775 (0.756-0.796)
+  2020-2022  Ambry only (template)                  n=    37  0.953 (0.918-0.972)
+  2023-2026  Explicit computational evidence        n= 2,057  0.842 (0.828-0.855)
+  2023-2026  Text without computational evidence    n= 1,251  0.815 (0.760-0.850)
+  2023-2026  No free text                           n=20,100  0.773 (0.756-0.788)
+  2023-2026  Ambry only (template)                  n=50,219  0.955 (0.951-0.959)
+
+Read pooled AUROC as accuracy across genes and within-gene AUROC as accuracy among variants of the same gene;
+a gain that disappears in the shared or reweighted rows reflects which genes and classes were labelled.

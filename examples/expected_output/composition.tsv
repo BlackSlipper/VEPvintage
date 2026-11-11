@@ -1,0 +1,5 @@
+step	gain	lo	hi	note
+full	0.1124	0.0951	0.1292	pooled AUROC, full sets
+within	-0.0114	-0.0500	0.0267	within-gene AUROC, full sets
+shared	0.0232	0.0070	0.0357	pooled, shared gene x class cells only
+reweighted	0.0099	0.0010	0.0200	pooled, shared cells with 2023-2026 reweighted to the 2020-2022 cell mix
