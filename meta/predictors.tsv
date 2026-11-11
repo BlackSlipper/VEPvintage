@@ -1,0 +1,45 @@
+tool	pub_year	category	clinvar_in_training	training_labels	clingen_calibration	note
+SIFT	2003	Unsupervised-MSA	N	none	Pejaver2022	
+SIFT4G	2016	Unsupervised-MSA	N	none	none	
+PROVEAN	2012	Unsupervised-MSA	N	none	none	
+LRT	2009	Unsupervised-MSA	N	none	none	
+MutationAssessor	2011	Unsupervised-MSA	N	none	none	
+LIST-S2	2020	Unsupervised-MSA	N	none	none	
+EVE	2021	Unsupervised-MSA	N	none	Bergquist2025(not recommended)	thresholds via GMM
+ESM1b	2021	Unsupervised-PLM	N	none	Bergquist2025	
+Eigen	2016	Unsupervised-genomic	N	none	none	
+Eigen-PC	2016	Unsupervised-genomic	N	none	none	
+GERP++	2010	Conservation	N	none	Pejaver2022	
+phyloP100way	2010	Conservation	N	none	Pejaver2022	
+phastCons100way	2005	Conservation	N	none	none	
+SiPhy	2009	Conservation	N	none	none	
+CADD	2014	Proxy-label	N	proxy-neutral vs simulated	Pejaver2022	v1.7 in dbNSFP4.8
+DANN	2015	Proxy-label	N	proxy-neutral vs simulated	none	
+PrimateAI	2018	Proxy-label	N	primate common variants	Pejaver2022	
+AlphaMissense	2023	Proxy-label	N	population frequency weak labels	Bergquist2025	ClinVar used only to set class cutoffs
+MPC	2017	Proxy-label	N	regional missense constraint (ExAC)	Pejaver2022	
+PolyPhen2_HDIV	2010	Supervised-curated	N	UniProt disease vs interspecies divergence	none	
+PolyPhen2_HVAR	2010	Supervised-curated	N	UniProt disease vs common human nsSNPs	Pejaver2022	
+MutationTaster	2014	Supervised-curated	P	HGMD/ClinVar disease vs 1000G	none	version-dependent
+FATHMM	2013	Supervised-curated	N	HGMD vs UniProt (weighting)	Pejaver2022	
+FATHMM-MKL	2015	Supervised-curated	N	HGMD vs 1000G	none	
+FATHMM-XF	2018	Supervised-curated	N	HGMD vs 1000G	none	
+VEST4	2013	Supervised-curated	N	HGMD vs ESP common	Pejaver2022	
+MetaSVM	2015	Supervised-curated	N	UniProt curated	none	
+MetaLR	2015	Supervised-curated	N	UniProt curated	none	
+M-CAP	2016	Supervised-curated	N	HGMD vs ExAC	none	
+REVEL	2016	Supervised-curated	N	HGMD DM vs ESP rare neutral	Pejaver2022	
+MutPred2	2020	Supervised-curated	N	HGMD/SwissVar vs dbSNP/ExAC	Pejaver2022	
+DEOGEN2	2017	Supervised-curated	N	HumSaVar (UniProt)	none	
+BayesDel_noAF	2017	Meta-score	U	unclear; ClinVar used for cutoffs	Pejaver2022	
+BayesDel_addAF	2017	Meta-score	U	unclear; includes allele frequency	none	
+ClinPred	2018	Supervised-ClinVar	Y	ClinVar	none	
+MetaRNN	2022	Supervised-ClinVar	Y	ClinVar	none	
+VARITY_R	2021	Supervised-ClinVar	Y	ClinVar/HGMD/HumsaVar + gnomAD	Bergquist2025	
+VARITY_ER	2021	Supervised-ClinVar	Y	ClinVar/HGMD/HumsaVar + gnomAD	none	
+VARITY_R_LOO	2021	Supervised-ClinVar	Y	leave-one-out version	none	
+VARITY_ER_LOO	2021	Supervised-ClinVar	Y	leave-one-out version	none	
+MVP	2021	Supervised-ClinVar	Y	ClinVar/HGMD/UniProt	none	
+gMVP	2022	Supervised-ClinVar	Y	ClinVar/HGMD/UniProt	none	
+PHACTboost	2024	Supervised-ClinVar	Y	ClinVar (submission date <2020) + gnomAD	none	date-split training
+MutFormer	2023	Supervised-ClinVar	U	to verify	none	

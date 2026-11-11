@@ -1,0 +1,326 @@
+{
+ "A4_HUMAN": {
+  "acc": "P05067",
+  "gene": "APP"
+ },
+ "ACE2_HUMAN": {
+  "acc": "Q9BYF1",
+  "gene": "ACE2"
+ },
+ "ADRB2_HUMAN": {
+  "acc": "P07550",
+  "gene": "ADRB2"
+ },
+ "AICDA_HUMAN": {
+  "acc": "Q9GZX7",
+  "gene": "AICDA"
+ },
+ "AMFR_HUMAN": {
+  "acc": "Q9UKV5",
+  "gene": "AMFR"
+ },
+ "B2L11_HUMAN": {
+  "acc": "O43521",
+  "gene": "BCL2L11"
+ },
+ "BRCA1_HUMAN": {
+  "acc": "P38398",
+  "gene": "BRCA1"
+ },
+ "BRCA2_HUMAN": {
+  "acc": "P51587",
+  "gene": "BRCA2"
+ },
+ "CALM1_HUMAN": {
+  "acc": "P0DP23",
+  "gene": "CALM1"
+ },
+ "CAR11_HUMAN": {
+  "acc": "Q9BXL7",
+  "gene": "CARD11"
+ },
+ "CASP3_HUMAN": {
+  "acc": "P42574",
+  "gene": "CASP3"
+ },
+ "CASP7_HUMAN": {
+  "acc": "P55210",
+  "gene": "CASP7"
+ },
+ "CBPA2_HUMAN": {
+  "acc": "P48052",
+  "gene": "CPA2"
+ },
+ "CBS_HUMAN": {
+  "acc": "P35520",
+  "gene": "CBS"
+ },
+ "CBX4_HUMAN": {
+  "acc": "O00257",
+  "gene": "CBX4"
+ },
+ "CCR5_HUMAN": {
+  "acc": "P32302",
+  "gene": "CXCR5"
+ },
+ "CD19_HUMAN": {
+  "acc": "P15391",
+  "gene": "CD19"
+ },
+ "CP2C9_HUMAN": {
+  "acc": "P11712",
+  "gene": "CYP2C9"
+ },
+ "DLG4_HUMAN": {
+  "acc": "P78352",
+  "gene": "DLG4"
+ },
+ "DNJA1_HUMAN": {
+  "acc": "P31689",
+  "gene": "DNAJA1"
+ },
+ "EPHB2_HUMAN": {
+  "acc": "P29323",
+  "gene": "EPHB2"
+ },
+ "ERBB2_HUMAN": {
+  "acc": "P04626",
+  "gene": "ERBB2"
+ },
+ "FKBP3_HUMAN": {
+  "acc": "Q00688",
+  "gene": "FKBP3"
+ },
+ "GDIA_HUMAN": {
+  "acc": "P31150",
+  "gene": "GDI1"
+ },
+ "GLPA_HUMAN": {
+  "acc": "P02724",
+  "gene": "GYPA"
+ },
+ "GRB2_HUMAN": {
+  "acc": "P62993",
+  "gene": "GRB2"
+ },
+ "HECD1_HUMAN": {
+  "acc": "Q9ULT8",
+  "gene": "HECTD1"
+ },
+ "HEM3_HUMAN": {
+  "acc": "P08397",
+  "gene": "HMBS"
+ },
+ "HMDH_HUMAN": {
+  "acc": "P04035",
+  "gene": "HMGCR"
+ },
+ "HXK4_HUMAN": {
+  "acc": "P35557",
+  "gene": "GCK"
+ },
+ "ILF3_HUMAN": {
+  "acc": "Q12906",
+  "gene": "ILF3"
+ },
+ "KCNE1_HUMAN": {
+  "acc": "P15382",
+  "gene": "KCNE1"
+ },
+ "KCNH2_HUMAN": {
+  "acc": "Q12809",
+  "gene": "KCNH2"
+ },
+ "LYAM1_HUMAN": {
+  "acc": "P14151",
+  "gene": "SELL"
+ },
+ "MET_HUMAN": {
+  "acc": "P08581",
+  "gene": "MET"
+ },
+ "MK01_HUMAN": {
+  "acc": "P28482",
+  "gene": "MAPK1"
+ },
+ "MSH2_HUMAN": {
+  "acc": "P43246",
+  "gene": "MSH2"
+ },
+ "MTHR_HUMAN": {
+  "acc": "P42898",
+  "gene": "MTHFR"
+ },
+ "NKX31_HUMAN": {
+  "acc": "Q99801",
+  "gene": "NKX3-1"
+ },
+ "NPC1_HUMAN": {
+  "acc": "O15118",
+  "gene": "NPC1"
+ },
+ "NUD15_HUMAN": {
+  "acc": "Q9NV35",
+  "gene": "NUDT15"
+ },
+ "OBSCN_HUMAN": {
+  "acc": "Q5VST9",
+  "gene": "OBSCN"
+ },
+ "OPSD_HUMAN": {
+  "acc": "P08100",
+  "gene": "RHO"
+ },
+ "OTC_HUMAN": {
+  "acc": "P00480",
+  "gene": "OTC"
+ },
+ "OTU7A_HUMAN": {
+  "acc": "Q8TE49",
+  "gene": "OTUD7A"
+ },
+ "P53_HUMAN": {
+  "acc": "P04637",
+  "gene": "TP53"
+ },
+ "PAI1_HUMAN": {
+  "acc": "P05121",
+  "gene": "SERPINE1"
+ },
+ "PIN1_HUMAN": {
+  "acc": "Q13526",
+  "gene": "PIN1"
+ },
+ "PITX2_HUMAN": {
+  "acc": "Q99697",
+  "gene": "PITX2"
+ },
+ "PKN1_HUMAN": {
+  "acc": "Q16512",
+  "gene": "PKN1"
+ },
+ "PPARG_HUMAN": {
+  "acc": "P37231",
+  "gene": "PPARG"
+ },
+ "PPM1D_HUMAN": {
+  "acc": "O15297",
+  "gene": "PPM1D"
+ },
+ "PR40A_HUMAN": {
+  "acc": "O75400",
+  "gene": "PRPF40A"
+ },
+ "PRKN_HUMAN": {
+  "acc": "O60260",
+  "gene": "PRKN"
+ },
+ "PTEN_HUMAN": {
+  "acc": "P60484",
+  "gene": "PTEN"
+ },
+ "Q53Z42_HUMAN": {
+  "acc": "Q53Z42",
+  "gene": "HLA-A"
+ },
+ "RAF1_HUMAN": {
+  "acc": "P04049",
+  "gene": "RAF1"
+ },
+ "RASH_HUMAN": {
+  "acc": "P01112",
+  "gene": "HRAS"
+ },
+ "RASK_HUMAN": {
+  "acc": "P01116",
+  "gene": "KRAS"
+ },
+ "RBP1_HUMAN": {
+  "acc": "Q15311",
+  "gene": "RALBP1"
+ },
+ "RD23A_HUMAN": {
+  "acc": "P54725",
+  "gene": "RAD23A"
+ },
+ "S22A1_HUMAN": {
+  "acc": "O15245",
+  "gene": "SLC22A1"
+ },
+ "SC6A4_HUMAN": {
+  "acc": "P31645",
+  "gene": "SLC6A4"
+ },
+ "SCN5A_HUMAN": {
+  "acc": "Q14524",
+  "gene": "SCN5A"
+ },
+ "SERC_HUMAN": {
+  "acc": "Q9Y617",
+  "gene": "PSAT1"
+ },
+ "SHOC2_HUMAN": {
+  "acc": "Q9UQ13",
+  "gene": "SHOC2"
+ },
+ "SOX30_HUMAN": {
+  "acc": "O94993",
+  "gene": "SOX30"
+ },
+ "SRBS1_HUMAN": {
+  "acc": "Q9BX66",
+  "gene": "SORBS1"
+ },
+ "SRC_HUMAN": {
+  "acc": "P12931",
+  "gene": "SRC"
+ },
+ "SUMO1_HUMAN": {
+  "acc": "P63165",
+  "gene": "SUMO1"
+ },
+ "SYUA_HUMAN": {
+  "acc": "P37840",
+  "gene": "SNCA"
+ },
+ "TADBP_HUMAN": {
+  "acc": "Q13148",
+  "gene": "TARDBP"
+ },
+ "TNKS2_HUMAN": {
+  "acc": "Q9H2K2",
+  "gene": "TNKS2"
+ },
+ "TPK1_HUMAN": {
+  "acc": "Q9H3S4",
+  "gene": "TPK1"
+ },
+ "TPMT_HUMAN": {
+  "acc": "P51580",
+  "gene": "TPMT"
+ },
+ "TPOR_HUMAN": {
+  "acc": "P40238",
+  "gene": "MPL"
+ },
+ "UBC9_HUMAN": {
+  "acc": "P63279",
+  "gene": "UBE2I"
+ },
+ "UBE4B_HUMAN": {
+  "acc": "O95155",
+  "gene": "UBE4B"
+ },
+ "UBR5_HUMAN": {
+  "acc": "O95071",
+  "gene": "UBR5"
+ },
+ "VKOR1_HUMAN": {
+  "acc": "Q9BQB6",
+  "gene": "VKORC1"
+ },
+ "YAP1_HUMAN": {
+  "acc": "P46937",
+  "gene": "YAP1"
+ }
+}
