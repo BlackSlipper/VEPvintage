@@ -94,7 +94,3 @@ policies for ClinVar data. dbNSFP 4.8a (the academic release) scores are subject
 its component predictors and are not redistributed here; re-create them with `scripts/03_fetch_dbnsfp.py`. ProteinGym
 v1.3 is available from its project site. Submitter names: the paper calls Ambry Genetics "Ambry" and Labcorp Genetics
 (formerly Invitae) "Labcorp".
-
-## Use of an AI assistant
-The analysis code in this repository was written with an AI assistant (Claude, Anthropic) under the authors' direction;
-Supplementary Methods S11 of the paper describes how it was used and checked.
